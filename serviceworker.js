@@ -169,12 +169,6 @@ self.addEventListener("notificationclick", function(event) {
   );
 });
 
-var temp = 0;
-setInterval(function(){
-    console.log(temp);
-    temp+=1;
-}, 5000);
-
 //importScripts('./javaScript/confirmDate.js');
 
 //var script = document.createElement('script');
